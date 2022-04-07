@@ -28,5 +28,5 @@ jobs:
     - name: Deploy to IIS
       run: |
         iisreset /stop
-        Copy-Item ./_work/CICDASP/CICDASP/publish/* C:/inetpub/wwwroot/ -Recurse -Force
+        Copy-Item ./publish/* C:/inetpub/wwwroot/ -Recurse -Force
         iisreset /start
