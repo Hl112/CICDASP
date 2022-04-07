@@ -29,7 +29,7 @@ namespace CCRFM.WebAPI
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo {Title = "CCRFM.WebAPI HihI Hehe", Version = "v1"});
+                c.SwaggerDoc("v1", new OpenApiInfo {Title = "CCRFM.WebAPI HihI Hehe Test Lan Cuoi", Version = "v1"});
             });
         }
 
