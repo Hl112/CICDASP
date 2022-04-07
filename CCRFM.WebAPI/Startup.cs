@@ -29,7 +29,7 @@ namespace CCRFM.WebAPI
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo {Title = "CCRFM.WebAPI", Version = "v1"});
+                c.SwaggerDoc("v1", new OpenApiInfo {Title = "CCRFM.WebAPI HihI Hehe", Version = "v1"});
             });
         }
 
@@ -45,7 +45,7 @@ namespace CCRFM.WebAPI
                 });
                 app.UseSwaggerUI(c =>
                     {
-                        c.SwaggerEndpoint("/v1/api-docs", "CCRFM.WebAPI v1");
+                        c.SwaggerEndpoint("/v1/api-docs", "CCRFM.WebAPI v1 HIhi Heheh");
                         c.RoutePrefix = String.Empty;
                     }
                 );
